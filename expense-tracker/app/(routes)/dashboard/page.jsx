@@ -1,9 +1,13 @@
 import React from 'react'
+import Budgets from './budgets/page'
 
 function Dashboard() {
   return (
-    <div></div>
+    <div>
+       dashboard
+    </div>
   )
 }
 
 export default Dashboard
+

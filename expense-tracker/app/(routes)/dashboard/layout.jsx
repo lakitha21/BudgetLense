@@ -15,7 +15,7 @@ function DashboardLayout({children}) {
             {children}
         </div>
 
-        {children}</div>
+        </div>
   )
 }
 
