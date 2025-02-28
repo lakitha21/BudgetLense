@@ -1,2 +1,0 @@
-# BudgetLense
-Personal finance tracker

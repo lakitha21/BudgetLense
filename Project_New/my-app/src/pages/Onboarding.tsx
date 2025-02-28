@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Image1 from '../assets/Image1.png';
 
 const Onboarding: React.FC = () => {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ const Onboarding: React.FC = () => {
         Get Started
       </button>
       <img 
-        src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" 
+        src={Image1}
         alt="Dashboard Preview" 
         className="preview-image" 
       />

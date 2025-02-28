@@ -4,7 +4,7 @@ import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Toolti
 import { ArrowUpRight, ArrowDownRight, DollarSign } from 'lucide-react';
 import { useTransactions, Transaction } from '../context/TransactionContext';
 
-// Register ChartJS components
+
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const Dashboard: React.FC = () => {
@@ -82,19 +82,19 @@ const Dashboard: React.FC = () => {
         <div className="stat-card income">
           <ArrowUpRight size={24} />
           <h3 className="stat-label">Total Income</h3>
-          <div className="stat-value">${totalIncome.toFixed(2)}</div>
+          <div className="stat-value">Rs{totalIncome.toFixed(2)}</div>
         </div>
         
         <div className="stat-card expense">
           <ArrowDownRight size={24} />
           <h3 className="stat-label">Total Expenses</h3>
-          <div className="stat-value">${totalExpenses.toFixed(2)}</div>
+          <div className="stat-value">Rs{totalExpenses.toFixed(2)}</div>
         </div>
         
         <div className="stat-card balance">
           <DollarSign size={24} />
           <h3 className="stat-label">Balance</h3>
-          <div className="stat-value">${balance.toFixed(2)}</div>
+          <div className="stat-value">Rs{balance.toFixed(2)}</div>
         </div>
       </div>
       

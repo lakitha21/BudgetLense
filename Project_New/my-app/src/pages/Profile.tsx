@@ -11,8 +11,8 @@ interface ProfileData {
 
 const Profile: React.FC = () => {
   const [profileData, setProfileData] = useState<ProfileData>({
-    name: 'John Doe',
-    email: 'john.doe@example.com',
+    name: 'User',
+    email: 'user@example.com',
     currentPassword: '',
     newPassword: '',
     confirmPassword: '',
