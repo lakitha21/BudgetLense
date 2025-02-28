@@ -12,23 +12,33 @@ import {
 } from "./dialog";
 import EmojiPicker from 'emoji-picker-react';
 import { Input } from '@/components/ui/input';
+import Budget from '../page';
+import { db } from '@/src/db';
+//import { useSession } from 'next-auth/react'; // Assuming you are using NextAuth.js
+//import { Budgets } from '@/db/schema';
 
 function CreateBudget() {
+  
   const [emojiIcon, setEmojiIcon] = useState(null);
   const [openEmojiPicker, setOpenEmojiPicker] = useState(false);
   const [name, setName] = useState('');
   const [amount, setAmount] = useState('');
 
   const onCreateBudget = async () => {
-    // Add your logic to create a budget here
-    console.log("Creating budget with:", { name, amount, emojiIcon });
-    // Example:
-    // const result = await db.insert(Budgets).values({
-    //   name: name,
-    //   amount: amount,
-    //   emoji: emojiIcon,
-    //   createdby: session.user.id
-    // }).one();
+    try {
+      console.log("Creating budget with:", { name, amount, emojiIcon });
+      const result = await db.budget.create({
+        data: {
+          name: name,
+          amount: parseInt(amount),
+          icon: emojiIcon,
+          createdBy: session.user.id, 
+        },
+      });
+      console.log("Budget created with id:", result.id);
+    } catch (error) {
+      console.error("Error creating budget:", error);
+    }
   };
 
   return (

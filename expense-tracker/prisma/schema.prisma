@@ -16,6 +16,26 @@ datasource db {
 model User {
   id        String   @id @default(cuid())
   name      String?
-  amount    Int      @default(0)
   createdAt DateTime @default(now())
+  budgets   Budget[]
+}
+
+model Budget {
+  id        String    @id @default(cuid())
+  name      String
+  amount    Int
+  icon      String?
+  createdBy String
+  createdAt DateTime  @default(now())
+  user      User      @relation(fields: [createdBy], references: [id])
+  expenses  Expense[]
+}
+
+model Expense {
+  id        String   @id @default(cuid()) // Unique ID
+  name      String // Expense name
+  amount    Int // Expense amount
+  budgetId  String
+  createdAt DateTime @default(now()) // Timestamp
+  budget    Budget   @relation(fields: [budgetId], references: [id])
 }
