@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@prisma/client": "^6.4.1",
     "lucide-react": "^0.476.0",
+    "prisma": "^6.4.1",
     "react": "^19.0.0",
     "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.0.0"

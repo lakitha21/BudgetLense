@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BudgetLense")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c9abb6efce1281ca8c586478c329c2c12381d16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+105831349c7bbe256926a0ea175354ee6e718df1")]
 [assembly: System.Reflection.AssemblyProductAttribute("BudgetLense")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BudgetLense")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
