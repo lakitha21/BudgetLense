@@ -1,0 +1,111 @@
+<Page x:Class="BudgetLense.BudgetsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Budgets">
+
+    <Grid Margin="30">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Transaction Form -->
+        <Border Background="#f5f6fa"
+                CornerRadius="10"
+                Padding="20">
+            <StackPanel>
+                <TextBlock Text="Add Transaction"
+                         FontSize="20"
+                         FontWeight="SemiBold"
+                         Margin="0,0,0,20"/>
+
+                <TextBlock Text="Type"
+                         Margin="0,0,0,5"/>
+                <ComboBox x:Name="TransactionType"
+                         Margin="0,0,0,15">
+                    <ComboBoxItem Content="Income"/>
+                    <ComboBoxItem Content="Expense"/>
+                </ComboBox>
+
+                <TextBlock Text="Amount"
+                         Margin="0,0,0,5"/>
+                <TextBox x:Name="AmountInput"
+                         Margin="0,0,0,15"/>
+
+                <TextBlock Text="Category"
+                         Margin="0,0,0,5"/>
+                <ComboBox x:Name="CategoryInput"
+                         Margin="0,0,0,15"/>
+
+                <TextBlock Text="Description"
+                         Margin="0,0,0,5"/>
+                <TextBox x:Name="DescriptionInput"
+                         Margin="0,0,0,15"/>
+
+                <TextBlock Text="Date"
+                         Margin="0,0,0,5"/>
+                <DatePicker x:Name="DateInput"
+                          Margin="0,0,0,20"/>
+
+                <Button x:Name="AddTransactionButton"
+                        Content="Add Transaction"
+                        Click="AddTransaction_Click"
+                        Style="{StaticResource PrimaryButton}"
+                        Margin="0,0,0,10"/>
+                
+                <Button x:Name="CancelEditButton"
+                        Content="Cancel Edit"
+                        Click="CancelEdit_Click"
+                        Style="{StaticResource SecondaryButton}"
+                        Visibility="Collapsed"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Transaction History -->
+        <Grid Grid.Column="1" Margin="30,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Transaction History"
+                     FontSize="20"
+                     FontWeight="SemiBold"
+                     Margin="0,0,0,20"/>
+
+            <DataGrid x:Name="TransactionsGrid"
+                      Grid.Row="1"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="False"
+                      CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Date" 
+                                      Binding="{Binding Date, StringFormat=d}"
+                                      Width="100"/>
+                    <DataGridTextColumn Header="Description" 
+                                      Binding="{Binding Description}"
+                                      Width="*"/>
+                    <DataGridTextColumn Header="Category" 
+                                      Binding="{Binding Category}"
+                                      Width="120"/>
+                    <DataGridTextColumn Header="Amount" 
+                                      Binding="{Binding Amount, StringFormat=C}"
+                                      Width="100"/>
+                    <DataGridTemplateColumn Width="160">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Content="Edit"
+                                            Click="EditTransaction_Click"
+                                            Margin="0,0,5,0"/>
+                                    <Button Content="Delete"
+                                            Click="DeleteTransaction_Click"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Page>

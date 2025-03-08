@@ -1,0 +1,56 @@
+<Window x:Class="BudgetLense.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BudgetLense" Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Navigation Panel -->
+        <Border x:Name="NavigationPanel" Background="#2c3e50" Grid.Column="0" Width="250" Visibility="Collapsed">
+            <StackPanel>
+                <TextBlock Text="BudgetLense" 
+                         Foreground="White" 
+                         FontSize="24" 
+                         Margin="20,30,20,50"
+                         FontWeight="Bold"/>
+
+                <RadioButton x:Name="DashboardBtn" 
+                           Style="{StaticResource NavButton}"
+                           IsChecked="True"
+                           Click="NavigationButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="&#xE80F;" FontFamily="Segoe MDL2 Assets" Margin="0,0,10,0"/>
+                        <TextBlock Text="Dashboard"/>
+                    </StackPanel>
+                </RadioButton>
+
+                <RadioButton x:Name="BudgetsBtn"
+                           Style="{StaticResource NavButton}"
+                           Click="NavigationButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="&#xE8F1;" FontFamily="Segoe MDL2 Assets" Margin="0,0,10,0"/>
+                        <TextBlock Text="Budgets"/>
+                    </StackPanel>
+                </RadioButton>
+
+                <RadioButton x:Name="ProfileBtn"
+                           Style="{StaticResource NavButton}"
+                           Click="NavigationButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="&#xE77B;" FontFamily="Segoe MDL2 Assets" Margin="0,0,10,0"/>
+                        <TextBlock Text="Profile"/>
+                    </StackPanel>
+                </RadioButton>
+            </StackPanel>
+        </Border>
+
+        <!-- Main Content Area -->
+        <Frame x:Name="MainFrame" 
+               Grid.Column="1" 
+               NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

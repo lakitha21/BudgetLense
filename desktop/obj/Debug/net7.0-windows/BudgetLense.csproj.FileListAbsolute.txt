@@ -1,0 +1,83 @@
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\BudgetLense_MarkupCompile.cache
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\Pages\ProfilePage.baml
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\Pages\ProfilePage.g.cs
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\Pages\DashboardPage.baml
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\Pages\DashboardPage.g.cs
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\Pages\BudgetsPage.baml
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\Pages\BudgetsPage.g.cs
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\MainWindow.baml
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Dekstop_Applicaton\Project 1\bin\Debug\net7.0-windows\BudgetLense.exe
+D:\Dekstop_Applicaton\Project 1\bin\Debug\net7.0-windows\BudgetLense.deps.json
+D:\Dekstop_Applicaton\Project 1\bin\Debug\net7.0-windows\BudgetLense.runtimeconfig.json
+D:\Dekstop_Applicaton\Project 1\bin\Debug\net7.0-windows\BudgetLense.dll
+D:\Dekstop_Applicaton\Project 1\bin\Debug\net7.0-windows\BudgetLense.pdb
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\App.baml
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\App.g.cs
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\BudgetLense.g.resources
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\BudgetLense.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\BudgetLense.AssemblyInfoInputs.cache
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\BudgetLense.AssemblyInfo.cs
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\BudgetLense.csproj.CoreCompileInputs.cache
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\BudgetLense.dll
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\refint\BudgetLense.dll
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\BudgetLense.pdb
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\BudgetLense.genruntimeconfig.cache
+D:\Dekstop_Applicaton\Project 1\obj\Debug\net7.0-windows\ref\BudgetLense.dll
+D:\Dekstop_Applicaton\project_database\bin\Debug\net7.0-windows\BudgetLense.exe
+D:\Dekstop_Applicaton\project_database\bin\Debug\net7.0-windows\BudgetLense.deps.json
+D:\Dekstop_Applicaton\project_database\bin\Debug\net7.0-windows\BudgetLense.runtimeconfig.json
+D:\Dekstop_Applicaton\project_database\bin\Debug\net7.0-windows\BudgetLense.dll
+D:\Dekstop_Applicaton\project_database\bin\Debug\net7.0-windows\BudgetLense.pdb
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\MainWindow.baml
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\Pages\BudgetsPage.baml
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\Pages\DashboardPage.baml
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\Pages\ProfilePage.baml
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\App.baml
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\Pages\BudgetsPage.g.cs
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\Pages\DashboardPage.g.cs
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\Pages\ProfilePage.g.cs
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\App.g.cs
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\BudgetLense_MarkupCompile.cache
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\BudgetLense.g.resources
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\BudgetLense.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\BudgetLense.AssemblyInfoInputs.cache
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\BudgetLense.AssemblyInfo.cs
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\BudgetLense.csproj.CoreCompileInputs.cache
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\BudgetLense.dll
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\refint\BudgetLense.dll
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\BudgetLense.pdb
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\BudgetLense.genruntimeconfig.cache
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\ref\BudgetLense.dll
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\Pages\LandingPage.baml
+D:\Dekstop_Applicaton\project_database\obj\Debug\net7.0-windows\Pages\LandingPage.g.cs
+D:\GUI_Project\BudgetLense\desktop\bin\Debug\net7.0-windows\BudgetLense.exe
+D:\GUI_Project\BudgetLense\desktop\bin\Debug\net7.0-windows\BudgetLense.deps.json
+D:\GUI_Project\BudgetLense\desktop\bin\Debug\net7.0-windows\BudgetLense.runtimeconfig.json
+D:\GUI_Project\BudgetLense\desktop\bin\Debug\net7.0-windows\BudgetLense.dll
+D:\GUI_Project\BudgetLense\desktop\bin\Debug\net7.0-windows\BudgetLense.pdb
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\MainWindow.baml
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\Pages\BudgetsPage.baml
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\Pages\DashboardPage.baml
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\Pages\LandingPage.baml
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\Pages\ProfilePage.baml
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\App.baml
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\Pages\BudgetsPage.g.cs
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\Pages\DashboardPage.g.cs
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\Pages\LandingPage.g.cs
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\Pages\ProfilePage.g.cs
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\App.g.cs
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense_MarkupCompile.cache
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense.g.resources
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense.GeneratedMSBuildEditorConfig.editorconfig
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense.AssemblyInfoInputs.cache
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense.AssemblyInfo.cs
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense.csproj.CoreCompileInputs.cache
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense.sourcelink.json
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense.dll
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\refint\BudgetLense.dll
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense.pdb
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\BudgetLense.genruntimeconfig.cache
+D:\GUI_Project\BudgetLense\desktop\obj\Debug\net7.0-windows\ref\BudgetLense.dll

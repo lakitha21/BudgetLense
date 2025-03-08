@@ -1,0 +1,77 @@
+<Page x:Class="BudgetLense.LandingPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Welcome">
+    
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#2c3e50" Offset="0"/>
+                <GradientStop Color="#3498db" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <StackPanel VerticalAlignment="Center" 
+                   HorizontalAlignment="Center" 
+                   MaxWidth="800">
+            
+            <TextBlock Text="Welcome to BudgetLense"
+                     Foreground="White"
+                     FontSize="56"
+                     FontWeight="Bold"
+                     TextAlignment="Center"
+                     TextWrapping="Wrap"
+                     Margin="0,0,0,30"/>
+            
+            <TextBlock Text="Take control of your finances with our intuitive personal finance tracker. Track expenses, manage budgets, and achieve your financial goals with ease!"
+                     Foreground="#ecf0f1"
+                     FontSize="24"
+                     TextAlignment="Center"
+                     TextWrapping="Wrap"
+                     LineHeight="36"
+                     Margin="20,0,20,60"/>
+            
+            <Button x:Name="GetStartedButton"
+                    Click="GetStartedButton_Click"
+                    HorizontalAlignment="Center"
+                    Cursor="Hand">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="border" 
+                                            Background="#3498db"
+                                            BorderThickness="0"
+                                            CornerRadius="30"
+                                            Padding="50,20">
+                                        <Border.Effect>
+                                            <DropShadowEffect Color="#2980b9" 
+                                                            Direction="270"
+                                                            ShadowDepth="5" 
+                                                            BlurRadius="10" 
+                                                            Opacity="0.3"/>
+                                        </Border.Effect>
+                                        <TextBlock Text="Get Started"
+                                                 FontSize="28"
+                                                 FontWeight="SemiBold"
+                                                 Foreground="White"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#2980b9"/>
+                                            <Setter TargetName="border" Property="Margin" Value="0,0,0,5"/>
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter TargetName="border" Property="Margin" Value="0,5,0,0"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>

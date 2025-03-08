@@ -48,7 +48,7 @@ const Budgets: React.FC = () => {
       addTransaction(transactionData);
     }
 
-    // Reset form and close modal
+    
     setFormData({
       amount: '',
       category: '',

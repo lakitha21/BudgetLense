@@ -1,0 +1,121 @@
+<Page x:Class="BudgetLense.DashboardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Dashboard">
+
+    <ScrollViewer>
+        <StackPanel Margin="30">
+            <!-- Greeting Section -->
+            <TextBlock x:Name="GreetingText"
+                     FontSize="24"
+                     FontWeight="SemiBold"
+                     Margin="0,0,0,30"/>
+
+            <!-- Financial Overview Cards -->
+            <Grid Margin="0,0,0,30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Income Card -->
+                <Border Grid.Column="0" 
+                        Margin="0,0,15,0"
+                        Background="#27ae60"
+                        CornerRadius="10"
+                        Padding="20">
+                    <StackPanel>
+                        <TextBlock Text="Total Income"
+                                 Foreground="White"
+                                 FontSize="16"/>
+                        <TextBlock x:Name="TotalIncomeText"
+                                 Text="$0.00"
+                                 Foreground="White"
+                                 FontSize="24"
+                                 FontWeight="Bold"
+                                 Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Expenses Card -->
+                <Border Grid.Column="1" 
+                        Margin="15,0"
+                        Background="#c0392b"
+                        CornerRadius="10"
+                        Padding="20">
+                    <StackPanel>
+                        <TextBlock Text="Total Expenses"
+                                 Foreground="White"
+                                 FontSize="16"/>
+                        <TextBlock x:Name="TotalExpensesText"
+                                 Text="$0.00"
+                                 Foreground="White"
+                                 FontSize="24"
+                                 FontWeight="Bold"
+                                 Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Balance Card -->
+                <Border x:Name="BalanceCard"
+                        Grid.Column="2" 
+                        Margin="15,0,0,0"
+                        Background="#2980b9"
+                        CornerRadius="10"
+                        Padding="20">
+                    <StackPanel>
+                        <TextBlock Text="Balance"
+                                 Foreground="White"
+                                 FontSize="16"/>
+                        <TextBlock x:Name="BalanceText"
+                                 Text="$0.00"
+                                 Foreground="White"
+                                 FontSize="24"
+                                 FontWeight="Bold"
+                                 Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <!-- Recent Transactions -->
+            <TextBlock Text="Recent Transactions"
+                     FontSize="20"
+                     FontWeight="SemiBold"
+                     Margin="0,0,0,15"/>
+
+            <ListView x:Name="TransactionsList"
+                      Background="Transparent"
+                      BorderThickness="0"
+                      MaxHeight="400">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="{Binding Description}"
+                                         FontWeight="SemiBold"/>
+                                <TextBlock Text="{Binding Category}"
+                                         Opacity="0.6"/>
+                            </StackPanel>
+
+                            <TextBlock Grid.Column="1"
+                                     Text="{Binding Amount, StringFormat=C}"
+                                     FontWeight="SemiBold"
+                                     Margin="15,0"/>
+
+                            <TextBlock Grid.Column="2"
+                                     Text="{Binding Date, StringFormat=d}"
+                                     Opacity="0.6"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

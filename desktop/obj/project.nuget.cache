@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jTBv1Teem2A=",
+  "success": true,
+  "projectFilePath": "D:\\Dekstop_Applicaton\\Project 1\\BudgetLense.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lakit\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\lakit\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\lakit\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\lakit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
